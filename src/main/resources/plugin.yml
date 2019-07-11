@@ -1,3 +1,11 @@
 name: SyncMoney
 version: ${project.version}
 main: com.github.bryanser.syncmoney.Main
+depend:
+    - BrAPI
+    - Vault
+commands:
+    SyncMoney:
+        aliases: [sm,sbank,bmoney]
+        usage: /<command> >> 打开UI
+        description: 打开UI
