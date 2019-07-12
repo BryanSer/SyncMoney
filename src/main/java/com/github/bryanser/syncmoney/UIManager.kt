@@ -256,7 +256,7 @@ object UIManager {
                                 locked -= p.name
                                 return
                             }
-                            if(money < has){
+                            if(money > has){
                                 p msg "§c跨服钱包余额不足"
                                 locked -= p.name
                                 return
